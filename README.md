@@ -47,7 +47,7 @@ By each number in the medical_data_visualizer.py file, add the code from the ass
 
 10. Draw the Heat Map in the draw_heat_map function
 
-11. Clean the data in the df_heat variable by filtering out the following patient segments that represent incorrect data:
+11. Clean the data in the df_heat variable by filtering out the following patient segments that represent incorrect data:<br /> 
 diastolic pressure is higher than systolic (Keep the correct data with (df['ap_lo'] <= df['ap_hi']))<br /> 
 height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['height'].quantile(0.025)))<br /> 
 height is more than the 97.5th percentile<br /> 
