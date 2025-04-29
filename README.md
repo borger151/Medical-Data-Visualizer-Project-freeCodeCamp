@@ -1,10 +1,12 @@
+# Medical Data Visualizer
+
 In this project, you will visualize and make calculations from medical examination data using matplotlib, seaborn, and pandas. The dataset values were collected during medical examinations.
 
-# Data description
+## Data description
 
 The rows in the dataset represent patients and the columns represent information like body measurements, results from various blood tests, and lifestyle choices. You will use the dataset to explore the relationship between cardiac disease, body measurements, blood markers, and lifestyle choices.
 
-# File name: medical_examination.csv
+## File name: medical_examination.csv
 
 | Feature | Variable Type | Variable | Value Type |
 | --- | --- | --- | --- |
@@ -21,7 +23,7 @@ The rows in the dataset represent patients and the columns represent information
 | Physical activity | Subjective Feature | active | binary |
 | Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
-# Instructions
+## Instructions
 
 Create a chart similar to examples/Figure_1.png, where we show the counts of good and bad outcomes for the cholesterol, gluc, alco, active, and smoke variables for patients with cardio=1 and cardio=0 in different panels.
 
@@ -64,10 +66,10 @@ weight is more than the 97.5th percentile
 
 17. Do not modify the next two lines
 
-# Development
+## Development
 
 Write your code in medical_data_visualizer.py. For development, you can use main.py to test your code.
 
-# Testing
+## Testing
 
 The unit tests for this project are in test_module.py. We imported the tests from test_module.py to main.py for your convenience.
