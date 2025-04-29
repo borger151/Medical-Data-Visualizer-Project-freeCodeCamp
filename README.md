@@ -56,15 +56,15 @@ By each number in the medical_data_visualizer.py file, add the code from the ass
 - weight is less than the 2.5th percentile
 - weight is more than the 97.5th percentile
 
-13. Calculate the correlation matrix and store it in the corr variable
+12. Calculate the correlation matrix and store it in the corr variable
 
-14. Generate a mask for the upper triangle and store it in the mask variable
+13. Generate a mask for the upper triangle and store it in the mask variable
 
-15. Set up the matplotlib figure
+14. Set up the matplotlib figure
 
-16. Plot the correlation matrix using the method provided by the seaborn library import: sns.heatmap()
+15. Plot the correlation matrix using the method provided by the seaborn library import: sns.heatmap()
 
-17. Do not modify the next two lines
+16. Do not modify the next two lines
 
 ## Development
 
